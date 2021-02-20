@@ -18,7 +18,7 @@ var camera,
         onMouseDownLon = 0,
         onMouseDownLat = 0,
         width = 1440, // int || window.innerWidth
-        height = 650, // int || window.innerHeight
+        height = 720, // int || window.innerHeight
         ratio = width / height;
 var texture = THREE.ImageUtils.loadTexture('img/spherical_texture3.jpg', new THREE.UVMapping(), function() {
     init();

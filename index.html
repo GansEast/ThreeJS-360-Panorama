@@ -28,8 +28,8 @@
             #demo{
                 /* comment for fixed dimentsions */
                 position: relative;
-                width: 1920px;
-                height: 1080px;
+                width: 100%;
+                height: 100vh;
                 margin: 0 auto;
                 overflow: hidden;
                 cursor: move; /* fallback if grab cursor is unsupported */
@@ -43,6 +43,7 @@
                 cursor: -webkit-grabbing;
             }
             #log{
+                display:none;
                 position: absolute;
                 background: #fff;
                 padding: 20px;

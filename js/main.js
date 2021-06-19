@@ -20,7 +20,7 @@ var camera,
         width = window.innerWidth,
         height = window.innerHeight,
         ratio = width / height;
-var texture = THREE.ImageUtils.loadTexture('img/spherical_texture.jpg', new THREE.UVMapping(), function() {
+var texture = THREE.ImageUtils.loadTexture('img/spherical_texture6.jpg', new THREE.UVMapping(), function() {
     init();
     animate();
 });
